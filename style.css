@@ -1,13 +1,15 @@
+body {
+   
+    height: 100%;
+    background: linear-gradient(90deg,#696969  80%,#000000 50%);
+}
 nav {
     margin: 30px 30px 30px;
 }
 nav a {
     text-decoration: none;
-    color: white;
-    justify-items: flex-end;
+    color:#AEB6BF ;
     display: inline-block;       
-    text-align: center;
-    
     padding-right: 25px; 
 
 }
@@ -19,12 +21,37 @@ nav a {
     width: 850px;
     height: 500px;
 }
+#news-post-content {
+    height: 300px;
+    width:850px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#news-post-content p {
+    color: white;
+    width:50%;
+    margin: 10px 0px 10px;
+    padding-right: 5px;
+}
+
 #contact-us p {
     margin: 0;
 }
 
-body {
-    
-    height: 100%;
-    background: linear-gradient(90deg, #515A5A 80%,#17202A 50%);
+#social-media a {
+   text-decoration: none;
+   color:#AEB6BF ;
+   display: inline-block;
+   padding-bottom: 50px;
+
 }
+ time {
+    color:#AEB6BF ;
+ }
+
+
+    
+
