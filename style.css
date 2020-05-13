@@ -1,7 +1,30 @@
-body {
+nav {
+    margin: 30px 30px 30px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    justify-items: flex-end;
+    display: inline-block;       
+    text-align: center;
+    
+    padding-right: 25px; 
 
-   
 }
 #news-post {
     border-bottom: solid 2px gray;
+    margin: 30px;
+}
+#news-post-img {
+    width: 850px;
+    height: 500px;
+}
+#contact-us p {
+    margin: 0;
+}
+
+body {
+    
+    height: 100%;
+    background: linear-gradient(90deg, #515A5A 80%,#17202A 50%);
 }
