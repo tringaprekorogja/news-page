@@ -1,7 +1,10 @@
+a {
+    text-decoration: none;
+}
 body {
    
     height: 100%;
-    background: linear-gradient(90deg,#696969  80%,#000000 50%);
+    background: linear-gradient(90deg,#2F2F2F  80%,#000000 50%);
 }
 nav {
     margin: 30px 30px 30px;
@@ -18,7 +21,7 @@ nav a {
     margin: 30px;
 }
 #news-post-img {
-    width: 850px;
+    width: 90%;
     height: 500px;
 }
 #news-post-content {
@@ -51,6 +54,32 @@ nav a {
  time {
     color:#AEB6BF ;
  }
+
+ #related-news {
+     margin: 30px 30px 30px;
+     display:flex;
+ }
+ #related-news-header {
+     margin:30px;
+ }
+
+.related-news-post img {
+    height: 400px;
+}
+ footer {
+     display: flex;
+ } 
+
+footer div {
+    margin: 0px 30px 40px;
+    padding-right: 350px;
+}
+#follow-us {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
     
