@@ -1,0 +1,30 @@
+footer {
+	display: flex;
+	color: white;
+}
+
+footer div {
+	margin: 0px 30px 40px;
+	padding-right: 350px;
+}
+
+#follow-us {
+	display: flex;
+	flex-direction: column;
+}
+
+#follow-us a {
+	color: white;
+}
+
+#contact-us a {
+	color: #AEB6BF;
+}
+
+#contact-us p {
+	margin: 0;
+}
+
+.different-color {
+	color: #808B96;
+}
